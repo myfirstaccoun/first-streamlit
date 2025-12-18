@@ -1,6 +1,6 @@
 import streamlit as st
 import matplotlib.pyplot as plt
-from app import (
+from appa import (
     load_demand_data, naive_forecast, three_weeks_moving_average, exponential_smoothing,
     get_actual_demand, get_all_forecasts, get_error_table, get_best_methods, forecast_next_week, export_to_excel
 )
